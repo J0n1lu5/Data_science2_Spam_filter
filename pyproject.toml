@@ -1,0 +1,22 @@
+[project]
+name = "Spam_filter"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "J0n1lu5", email = "j.pluder@mci4me.at"},
+]
+dependencies = [
+    "pandas>=2.2.3",
+    "emails>=0.6",
+    "chardet>=5.2.0",
+    "beautifulsoup4>=4.12.3",
+    "nltk>=3.9.1",
+    "scikit-learn>=1.6.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
